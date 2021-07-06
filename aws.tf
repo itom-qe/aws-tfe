@@ -34,12 +34,12 @@ variable "region" {
 
 variable "ami" {
   type    = "string"
-  default = "ami-6bcfc42e"
+  default = "ami-0022c769"
 }
 
 variable "instance_type" {
   type    = "string"
-  default = "t2.micro"
+  default = "c1.medium"
 }
 
 provider "aws" {
